@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href="logo.png">
+    <link rel="stylesheet" href="spotify_style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib_option nav_option">
+                        <img src="library_icon.png" alt="library_icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib_box">
+                    <div class="box">
+                        <p class="box_p1">Create your first playlist</p>
+                        <p class="box_p2">It's easy, we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                </div>
+                <div class="lib_box">
+                    <div class="box">
+                        <p class="box_p1">Let's find some podcast to follow</p>
+                        <p class="box_p2">We'll keep you updated on new episode</p>
+                        <button class="badge">Browse Podcast</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="main_content">
+            <div class="sticky_nav">
+                <div class="sticky_nav_icons">
+                    <img src="backward_icon.png" alt="backward">
+                    <img src="forward_icon.png" alt="forward" class="hide">
+                </div>
+                    <div class="sticky_nav_option">
+                    <button class="badge nav_item hide">Explore Premium</button>
+                    <button class="badge dark_badge nav_item"><i class="fa-regular fa-circle-down" style="margin-right: 4px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav_item"></i>
+                </div>
+            </div>
+            <div class="main_content_cards">
+                <h2>Recently Played</h2>
+                <div class="cards_container">
+                    <div class="card">
+                        <img src="Card_1.png" alt="card">
+                        <div class="card_title">Anime songs</div>
+                        <div class="card_info">Your daily update of the anime songs tracks...</div>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="cards_container">
+                    <div class="card">
+                        <img src="Card_2.jpg" alt="card">
+                        <div class="card_title">Betrayal Of the Mind</div>
+                        <div class="card_info">The Raven Age...</div>
+                    </div>
+                
+                    <div class="card">
+                        <img src="Card_4.jpeg" alt="card">
+                        <div class="card_title">Mahiye Jinna Sohna</div>
+                        <div class="card_info">Darshan Raval...</div>
+                    </div>
+
+                    <div class="card">
+                        <img src="Card_3.jpg" alt="card">
+                        <div class="card_title">Fleur De Lis</div>
+                        <div class="card_info">The Raven Age...</div>
+                    </div>
+                
+                     <div class="card">
+                        <img src="Card_5.jpeg" alt="card">
+                        <div class="card_title">Top 50 Global Songs</div>
+                        <div class="card_info">Your daily update of the global songs tracks...</div>
+                    </div>
+
+                
+                </div>
+
+                <h2>Feature chart</h2>
+                <div class="cards_container">
+                    <div class="card">
+                        <img src="Card_7.jpeg" alt="card">
+                        <div class="card_title">Top songs India</div>
+                        <div class="card_info">Your daily update of the Indian songs tracks...</div>
+                    </div>
+                
+                    <div class="card">
+                        <img src="Card_6.jpeg" alt="card">
+                        <div class="card_title">Top songs Global</div>
+                        <div class="card_info">Your daily update of the global songs tracks...</div>
+                    </div>
+                </div>
+                
+                
+        
+
+            </div>
+            <div class="footer">
+                <div class="line">
+
+                </div>            .
+            </div>
+    
+        </div>
+        <div class="music_player">
+            <div class="album">
+                <img src="Murir_tin.jpg" alt="Playing">
+                <div class="playing_music_info">
+                    <p class="playing_music_title">Murir Tin</p>
+                    <p class="playing_music_artist">Towfique, Riyad Hasan, Pollob</p>
+                </div>
+                <i class="fa-regular fa-heart liked_song"></i>
+            </div>
+            <div class="music_pogress">
+                <div class="player_control">
+                    <img src="player_icon1.png" class="music_control_icon">
+                    <img src="player_icon2.png" class="music_control_icon">
+                    <img src="player_icon3.png" class="music_control_icon" style="opacity: 1; height:2rem">
+                    <img src="player_icon4.png" class="music_control_icon">
+                    <img src="player_icon5.png" class="music_control_icon">
+                </div>
+                <div class="playback_bar">
+                    <span>00:00</span>
+                    <input type="range" min="0" max="100" class="progress_bar">
+                    <span>05:42</span>
+                </div>
+            </div>
+            <div class="music_controls">
+                <i class="fa-solid fa-bars music_control_bar"></i>
+                <i class="fa-solid fa-desktop music_control_bar"></i>
+                <i class="fa-solid fa-volume-high music_control_bar"></i>
+                <input type="range" min="0" max="100" class="volume">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
